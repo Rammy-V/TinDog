@@ -1,0 +1,169 @@
+body{
+    font-family: "Montserrat";
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+h1{
+    font-family: "Montserrat";
+    size: 10rem; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2{
+    font-family: 'Montserrat-Bold';
+    size:3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat-Bold';
+}
+
+.container-fluid{
+    padding:3% 10% 7%;
+}
+
+.navbar{
+    padding-bottom:4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+
+.download-button{
+    margin:5% 3% 5% 0 ;
+    font-size: 2rem;
+}
+
+.title-image{
+    width:22%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 100px;
+}
+
+#features{
+   padding:1% 5%;
+   background-color: #fff;
+   position: relative;
+  
+}
+
+.feature-box{
+   text-align: center;
+   padding: 4.5%;
+}
+
+p{
+    color: grey;
+    font-family: 'san-serif';
+    font-size: medium;
+}
+
+.icon{
+    color: #ef8172;
+    margin:1rem;
+    
+}
+
+.icon:hover{
+    color:#ef072a;
+}
+
+.feature-title{
+    font-family: 'Ubuntu';
+    font-size: x-large;
+    font-style: normal;
+}
+
+#testimonials{
+    /* padding:7% 15%; */
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+.t-image{
+    width:20%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding:3% 2%;
+}
+
+.btn{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 992px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+
+ h3{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#cta{
+    height: 500px;
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    word-spacing: 20px;
+    padding: 150px;
+}
+
+.footer-i{
+    padding: 10px;   
+}
+.footer-i :hover{
+    font-size: 2rem;
+}
